@@ -1,0 +1,45 @@
+.text-theme{
+    color:rgba(0,156,222,1)!important;
+}
+.bg-theme{
+    background-image: linear-gradient( 108deg,  rgba(2,93,145,1) 17.3%, rgba(0,156,222,1) 77.6% )!important;
+}
+.pro-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.pro-card{
+    transition: .2s linear;
+}
+.pro-link:hover{
+    text-decoration: none!important;
+    color: rgb(4, 132, 186)!important;
+    
+}
+
+.btn-theme {
+  color: #fff;
+  background-image: linear-gradient( 108deg,  rgba(2,93,145,1) 17.3%, rgba(0,156,222,1) 77.6% )!important;
+  border-color: rgba(0,156,222,1) ;
+}
+
+.btn-theme:hover {
+  color: #fff;
+  background-image: linear-gradient( 108deg,  rgb(2, 73, 114) 17.3%, rgb(1, 129, 183) 77.6% );
+  border-color: rgb(1, 123, 175) ;
+}
+
+.btn-theme:focus, .btn-theme.focus {
+  color: #fff;
+  background-image: linear-gradient( 108deg,  rgb(2, 73, 114) 17.3%, rgb(1, 129, 183) 77.6% );
+  border-color: rgb(1, 123, 175) ;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+    .cat{
+        flex-direction: column-reverse;
+    }
+}
